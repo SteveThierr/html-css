@@ -1,0 +1,52 @@
+*{
+    background-color: gray;
+}
+.test{
+    
+    display:flex;
+    justify-content:space-between;
+  
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+   
+}
+
+ul > li{
+    margin: 0 20px 0 20px;
+    padding:10px
+}
+
+ul > li:hover{
+background-color: red;
+padding:10px
+ 
+}
+
+
+.container1{
+    height: 25vh;
+    background-color: blue;
+}
+.container2{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap; 
+    flex-direction:row;
+}
+
+    .container3{
+        display: flex;
+        justify-content: space-between;
+
+border-style: solid;
+    }
+    .container4{
+        border-style: solid;
+        display: flex;
+        justify-content: space-between;
+    }
+    
